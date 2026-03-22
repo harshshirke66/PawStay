@@ -1,105 +1,223 @@
-# 🐾 PawStay
+<div align="center">
 
-**PawStay** is a comprehensive, pet-friendly boarding and stay management platform built with [Flutter](https://flutter.dev) and [Supabase](https://supabase.com). It bridges the gap between pet owners seeking reliable care and hosts passionate about providing a safe and comfortable home for furry friends.
+<img src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white" />
+<img src="https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white" />
+<img src="https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white" />
+<img src="https://img.shields.io/badge/Google_Gemini-8E75B2?style=for-the-badge&logo=google&logoColor=white" />
+<img src="https://img.shields.io/badge/Razorpay-02042B?style=for-the-badge&logo=razorpay&logoColor=white" />
 
-Whether you're looking for a short-term stay or seeking to become a verified pet host, PawStay offers a seamless, secure, and modern experience.
+<br /><br />
+
+```
+██████╗  █████╗ ██╗    ██╗███████╗████████╗ █████╗ ██╗   ██╗
+██╔══██╗██╔══██╗██║    ██║██╔════╝╚══██╔══╝██╔══██╗╚██╗ ██╔╝
+██████╔╝███████║██║ █╗ ██║███████╗   ██║   ███████║ ╚████╔╝ 
+██╔═══╝ ██╔══██║██║███╗██║╚════██║   ██║   ██╔══██║  ╚██╔╝  
+██║     ██║  ██║╚███╔███╔╝███████║   ██║   ██║  ██║   ██║   
+╚═╝     ╚═╝  ╚═╝ ╚══╝╚══╝ ╚══════╝   ╚═╝   ╚═╝  ╚═╝   ╚═╝   
+```
+
+### 🐾 *Where every pet finds a home away from home* 🐾
+
+**A modern, AI-powered pet boarding & stay management platform**
+
+[![Live Demo](https://img.shields.io/badge/🌐_Try_Web_Version-FF6B6B?style=for-the-badge)](https://pawstay-three.vercel.app/)
+[![Download App](https://img.shields.io/badge/📱_Download_App-4ECDC4?style=for-the-badge)](https://drive.google.com/file/d/1UcwdS8_IM57lOUJwKrscjG-S73iMxV_O/view?usp=sharing)
+[![MIT License](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](LICENSE)
+
+</div>
 
 ---
 
-## 🌟 Key Features
+## 🌟 What is PawStay?
 
-### For Pet Owners
-- **🔍 Smart Search & Discovery:** Easily find local pet hosts based on location, amenities, and host ratings.
-- **🐕 Pet Management:** Create detailed profiles for your pets, including their preferences, health needs, and photos.
-- **📅 Real-Time Booking:** Hassle-free booking flow with integrated availability checks.
-- **💳 Secure Payments:** Integrated with [Razorpay](https://razorpay.com) for safe and fast transactions.
-- **💬 Direct Messaging:** In-app chat system to communicate directly with pet hosts.
-- **💾 Wishlist & History:** Save your favorite hosts and keep track of all past and upcoming stays.
+> **PawStay** bridges the gap between pet owners seeking reliable care and compassionate hosts who open their homes to furry friends. Whether it's a weekend getaway or a long vacation, PawStay ensures your pets are loved, safe, and happy — every single stay.
 
-### For Pet Hosts
-- **🏠 Become a Host:** Simple onboarding process to list your home as a pet haven.
-- **📊 Host Dashboard:** Manage bookings, view earnings, and communicate with pet owners from a single view.
-- **⭐ Profile Customization:** Showcase your space with photos and detailed hosting info.
+Built with **Flutter** for a silky-smooth cross-platform experience and powered by **Supabase** for real-time data, PawStay delivers a premium, end-to-end pet care management solution.
+
+---
+
+## 🚀 Try PawStay Right Now
+
+| Platform | Link | Status |
+|:--------:|:----:|:------:|
+| 🌐 **Web App** | [pawstay-three.vercel.app](https://pawstay-three.vercel.app/) | ✅ Live |
+| 📱 **Android APK** | [Download from Drive](https://drive.google.com/file/d/1UcwdS8_IM57lOUJwKrscjG-S73iMxV_O/view?usp=sharing) | ✅ Available |
+
+> 💡 **Note:** To install the Android APK, enable *Install from Unknown Sources* in your device settings.
+
+---
+
+## ✨ Feature Showcase
+
+### 🐕 For Pet Owners
+
+| Feature | Description |
+|---------|-------------|
+| 🔍 **Smart Search & Discovery** | Find local pet hosts filtered by location, amenities, pet type, and verified ratings |
+| 🐾 **Pet Profile Management** | Create rich profiles for your pets — health needs, preferences, personality, and photos |
+| 📅 **Real-Time Booking** | Seamless booking with live availability checks — no back-and-forth needed |
+| 💳 **Secure Payments** | Integrated with **Razorpay** for fast, encrypted, and reliable transactions |
+| 💬 **Direct Messaging** | Chat instantly with hosts right inside the app — no third-party apps needed |
+| ❤️ **Wishlists & History** | Save your go-to hosts and revisit your complete booking history anytime |
+
+### 🏠 For Pet Hosts
+
+| Feature | Description |
+|---------|-------------|
+| 🚀 **Become a Host** | Simple, guided onboarding — list your home as a pet haven in minutes |
+| 📊 **Host Dashboard** | A single hub to manage bookings, track earnings, and communicate with owners |
+| ⭐ **Profile Showcase** | Upload photos, set your rates, and highlight what makes your space special |
+| 🤖 **AI-Powered Matching** | Gemini AI helps connect you with the most compatible pet owners |
 
 ---
 
 ## 🛠️ Technology Stack
 
-- **Frontend:** [Flutter](https://flutter.dev) (Fast, Smooth, Multi-platform UI)
-- **Backend:** [Supabase](https://supabase.com) (Real-time Database & Authentication)
-- **AI Integration:** [Google Gemini Pro](https://deepmind.google/technologies/gemini/) (Intelligent Matching & Assistance)
-- **Payments:** [Razorpay](https://razorpay.com) (Secure checkout)
-- **Maps & Location:** [Geolocator](https://pub.dev/packages/geolocator) & [Geocoding](https://pub.dev/packages/geocoding)
-- **Animations:** [Animations Package](https://pub.dev/packages/animations) & [Shimmer](https://pub.dev/packages/shimmer) for a premium UI feel.
+```
+╔══════════════════════════════════════════════════════════╗
+║                   PAWSTAY TECH STACK                     ║
+╠══════════════╦═══════════════════════════════════════════╣
+║  Frontend    ║  Flutter (Dart) — Multi-platform UI       ║
+║  Backend     ║  Supabase — Realtime DB & Auth            ║
+║  AI Engine   ║  Google Gemini Pro — Smart Matching       ║
+║  Payments    ║  Razorpay — Secure Checkout               ║
+║  Maps        ║  Geolocator + Geocoding                   ║
+║  Animations  ║  Animations Package + Shimmer             ║
+╚══════════════╩═══════════════════════════════════════════╝
+```
+
+<div align="center">
+
+<img src="https://img.shields.io/badge/Flutter-Framework-02569B?logo=flutter&logoColor=white" />
+<img src="https://img.shields.io/badge/Supabase-Backend-3ECF8E?logo=supabase&logoColor=white" />
+<img src="https://img.shields.io/badge/Gemini_Pro-AI-8E75B2?logo=google&logoColor=white" />
+<img src="https://img.shields.io/badge/Razorpay-Payments-02042B?logo=razorpay&logoColor=white" />
+
+</div>
 
 ---
 
 ## 🚀 Getting Started
 
 ### Prerequisites
-- [Flutter SDK](https://docs.flutter.dev/get-started/install) (Stable channel)
-- [Dart SDK](https://dart.dev/get-started)
-- A [Supabase](https://supabase.com/) project set up and its credentials.
-- A [Google AI API Key](https://aistudio.google.com/) for Gemini features.
 
-### Installation
+Before you begin, make sure you have the following installed and configured:
 
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/harshshirke66/PawStay.git
-   cd PawStay
-   ```
-
-2. **Install dependencies:**
-   ```bash
-   flutter pub get
-   ```
-
-3. **Environment Setup:**
-   Create a `.env` file in the root directory (the app is configured to read from it via `flutter_dotenv`) and add the following:
-   ```env
-   SUPABASE_URL=your_supabase_url
-   SUPABASE_ANON_KEY=your_supabase_anon_key
-   GEMINI_API_KEY=your_google_gemini_api_key
-   RAZORPAY_KEY=your_razorpay_api_key
-   ```
-   *Make sure you don't commit your actual `.env` file to version control.*
-
-4. **Run the application:**
-   ```bash
-   flutter run
-   ```
+- ✅ [Flutter SDK](https://docs.flutter.dev/get-started/install) (Stable channel)
+- ✅ [Dart SDK](https://dart.dev/get-started)
+- ✅ A [Supabase](https://supabase.com/) project with its URL and anon key
+- ✅ A [Google AI API Key](https://aistudio.google.com/) for Gemini features
+- ✅ A [Razorpay](https://razorpay.com) account and API key
 
 ---
 
-## 📁 Project Structure (Key Folders)
+### ⚡ Quick Setup
 
-```text
-lib/
-├── models/         # Data models and business logic classes
-├── screens/        # Main UI screens (Auth, Host, Owner modules)
-├── services/       # External service integrations (Supabase, Razorpay, AI)
-├── utils/          # Constants, formatting, and helper themes
-└── widgets/        # Reusable UI components and responsive layouts
+**1. Clone the repository**
+```bash
+git clone https://github.com/harshshirke66/PawStay.git
+cd PawStay
+```
+
+**2. Install dependencies**
+```bash
+flutter pub get
+```
+
+**3. Configure Environment Variables**
+
+Create a `.env` file in the root of the project:
+
+```env
+# ─── Supabase ───────────────────────────────────────
+SUPABASE_URL=your_supabase_project_url
+SUPABASE_ANON_KEY=your_supabase_anon_key
+
+# ─── Google Gemini AI ───────────────────────────────
+GEMINI_API_KEY=your_google_gemini_api_key
+
+# ─── Razorpay Payments ──────────────────────────────
+RAZORPAY_KEY=your_razorpay_api_key
+```
+
+> ⚠️ **Important:** Never commit your `.env` file to version control. Add it to your `.gitignore`.
+
+**4. Run the app**
+```bash
+flutter run
+```
+
+---
+
+## 📁 Project Architecture
+
+```
+PawStay/
+│
+├── 📂 lib/
+│   ├── 🗃️  models/         → Data models & business logic classes
+│   ├── 🖥️  screens/        → UI screens (Auth, Host, Owner modules)
+│   ├── ⚙️  services/       → External integrations (Supabase, Razorpay, AI)
+│   ├── 🛠️  utils/          → Constants, themes, formatters & helpers
+│   └── 🧩  widgets/        → Reusable UI components & responsive layouts
+│
+├── 📂 assets/              → Images, fonts & static resources
+├── 📄 pubspec.yaml          → Flutter dependencies
+└── 📄 .env                  → 🔐 Environment variables (DO NOT COMMIT)
 ```
 
 ---
 
 ## 🤝 Contributing
 
-Contributions are welcome! If you'd like to help improve PawStay, please follow these steps:
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/NewFeature`)
-3. Commit your Changes (`git commit -m 'Add some NewFeature'`)
-4. Push to the Branch (`git push origin feature/NewFeature`)
-5. Open a Pull Request
+Contributions are what make open source amazing! We'd love your help to make PawStay even better. 🐾
+
+```bash
+# Step 1: Fork the repository on GitHub
+
+# Step 2: Create your feature branch
+git checkout -b feature/AmazingFeature
+
+# Step 3: Commit your changes with a descriptive message
+git commit -m 'feat: Add AmazingFeature'
+
+# Step 4: Push to your branch
+git push origin feature/AmazingFeature
+
+# Step 5: Open a Pull Request on GitHub 🚀
+```
+
+**Please ensure your PR:**
+- [ ] Follows the existing code style
+- [ ] Includes a clear description of the changes
+- [ ] Is linked to a relevant issue (if applicable)
 
 ---
 
 ## 📄 License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is distributed under the **MIT License**. See the [`LICENSE`](LICENSE) file for full details.
+
+```
+MIT License — Free to use, modify, and distribute.
+Just keep the attribution. 🙏
+```
 
 ---
 
-🐾 *PawStay: Taking the stress out of pet stays.*
+<div align="center">
+
+### ⭐ If you find PawStay useful, give it a star — it really helps! ⭐
+
+**🌐 [Web Demo](https://pawstay-three.vercel.app/)** &nbsp;|&nbsp; **📱 [Download App](https://drive.google.com/file/d/1UcwdS8_IM57lOUJwKrscjG-S73iMxV_O/view?usp=sharing)** &nbsp;|&nbsp; **🐛 [Report a Bug](https://github.com/harshshirke66/PawStay/issues)** &nbsp;|&nbsp; **💡 [Request Feature](https://github.com/harshshirke66/PawStay/issues)**
+
+<br />
+
+*Made with ❤️ and lots of 🐾 by the PawStay Team*
+
+---
+
+🐾 **PawStay** — *Taking the stress out of pet stays.*
+
+</div>
